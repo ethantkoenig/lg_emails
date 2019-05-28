@@ -1,0 +1,465 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Garden City Sunnyvale North Life Group Weekly</title>
+    <style>
+      /* -------------------------------------
+          GLOBAL RESETS
+      ------------------------------------- */
+      img {
+        border: none;
+        -ms-interpolation-mode: bicubic;
+        max-width: 100%; }
+
+      body {
+        background-color: #f6f6f6;
+        font-family: sans-serif;
+        -webkit-font-smoothing: antialiased;
+        font-size: 18px;
+/*        line-height: 1.4;*/
+        line-height: 24px;
+/*        margin: 0;*/
+/*        padding: 0;*/
+        padding: 8px 8px 8px 8px;
+        color: #33363d;
+        max-width: 75ch;
+        padding: 8px;
+        width: 170ch;
+        margin: 0 auto;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%; }
+
+      table {
+        border-collapse: separate;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+        width: 100%; }
+        table td {
+          font-family: sans-serif;
+          font-size: 14px;
+          vertical-align: top; }
+
+      /* -------------------------------------
+          BODY & CONTAINER
+      ------------------------------------- */
+
+      .body {
+        background-color: #f6f6f6;
+        width: 100%; }
+
+        .note-wrapper{
+            background-color: #fcfcfc;
+            /*padding: 64px;*/
+            padding: 16px;
+        }
+
+        section{
+            border-top: 1px solid #EBECED;
+            padding-bottom: 16px;
+        }
+
+        .intro{
+            border-top: none;
+            padding-bottom: 0px;
+        }
+
+
+      /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+      .container {
+        display: block;
+        Margin: 0 auto !important;
+        /* makes it centered */
+        max-width: 580px;
+        padding: 10px;
+        width: 580px; }
+
+      /* This should also be a block element, so that it will fill 100% of the .container */
+      .content {
+        box-sizing: border-box;
+        display: block;
+        Margin: 0 auto;
+        max-width: 580px;
+        padding: 10px; }
+
+      /* -------------------------------------
+          HEADER, FOOTER, MAIN
+      ------------------------------------- */
+      .main {
+        background: #ffffff;
+        border-radius: 3px;
+        width: 100%; }
+
+      .wrapper {
+        box-sizing: border-box;
+        padding: 20px; }
+
+      .content-block {
+        padding-bottom: 10px;
+        padding-top: 10px;
+      }
+
+      .footer {
+        clear: both;
+        Margin-top: 10px;
+        text-align: center;
+        width: 100%; }
+        .footer td,
+        .footer p,
+        .footer span,
+        .footer a {
+          color: #999999;
+          font-size: 12px;
+          text-align: center; }
+
+      /* -------------------------------------
+          TYPOGRAPHY
+      ------------------------------------- */
+      h1,
+      h2,
+      h3,
+      h4 {
+/*        color: #000000;*/
+        color: #33363D;
+        font-family: sans-serif;
+        font-weight: 700;
+        line-height: 1.4;
+        margin: 0;
+        /*margin-top: 30px;*/
+        Margin-bottom: 30px; }
+
+      h1 {
+          font-size: 1.6em;
+         line-height: 1.2em;
+          color: #33363D;
+        }
+
+    h2{
+        font-size: 1.4em;
+        color: #33363D;
+        margin: 16px 0 16px 0;
+        padding-bottom: 8px;
+        padding-top: 8px;
+    }
+
+    h3{
+        font-size: 1.2em;
+        color: #33363D;
+        margin-top: 18px;
+        margin-bottom: 16px;
+    }
+    h4 {
+      font-size: 1.15em;
+        color: #33363D;
+        margin-top: 18px;
+        margin-bottom: 16px;
+
+    }
+/*
+        font-size: 35px;
+        font-weight: 300;
+        text-align: center;
+        text-transform: capitalize; }
+*/
+
+      p,
+      ul,
+      ol {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+        Margin-bottom: 12px; }
+        p li,
+        ul li,
+        ol li {
+          list-style-position: inside;
+          margin-left: 5px;
+          margin-bottom: 5px; }
+        .bold {
+            font-weight:800;
+        }
+
+/*
+      a {
+        color: #3498db;
+        text-decoration: underline; }
+*/
+        a{
+                color: #1a5dad;
+            }
+        .location-title{
+            font-weight: 700;
+            margin-bottom: 0px;
+            color: #33363D;
+        }
+        .subtitle{
+                margin-top: -16px;
+                font-weight: 300;
+                font-size: 0.8em;
+                color: #6F7785;
+            }
+        a{text-decoration:underline}h4,h6{margin-bottom:10px}.changed,.fixed,.new,.admin{font-weight:700;padding:2px 5px;margin-right:5px}.new{background-color:#FFE3B5;border-right:2px solid #F99A3A}.changed{background-color:#EACFFF;border-right:2px solid #9F27FE}.fixed{background-color:#D5FFC9;border-right:2px solid #39D666}.admin{background-color:#B5DBFF;border-right:2px solid #5B88B2}p{line-height:22px}
+
+      /* -------------------------------------
+          BUTTONS
+      ------------------------------------- */
+      .btn {
+        box-sizing: border-box;
+        width: 100%; }
+        .btn > tbody > tr > td {
+          padding-bottom: 15px; }
+        .btn table {
+          width: auto; }
+        .btn table td {
+          background-color: #ffffff;
+          border-radius: 5px;
+          text-align: center; }
+        .btn a {
+          background-color: #ffffff;
+          border: solid 1px #3498db;
+          border-radius: 5px;
+          box-sizing: border-box;
+          color: #3498db;
+          cursor: pointer;
+          display: inline-block;
+          font-size: 14px;
+          font-weight: bold;
+          margin: 0;
+          padding: 12px 25px;
+          text-decoration: none;}
+          /*text-transform: capitalize; }*/
+
+      .btn-primary table td {
+        background-color: #3498db; }
+
+      .btn-primary a {
+        background-color: #3498db;
+        border-color: #3498db;
+        color: #ffffff; }
+
+      .btn-secondary a {
+        background-color: #ffffff;
+        border-color: #3498db;
+        color: #3498db; }
+
+      .btn-tertiary a {
+        background-color: #3cb371;
+        border-color: #3cb371;
+        color: #ffffff; }
+
+      /* -------------------------------------
+          OTHER STYLES THAT MIGHT BE USEFUL
+      ------------------------------------- */
+      .last {
+        margin-bottom: 0; }
+
+      .first {
+        margin-top: 0; }
+
+      .align-center {
+        text-align: center; }
+
+      .align-right {
+        text-align: right; }
+
+      .align-left {
+        text-align: left; }
+
+      .clear {
+        clear: both; }
+
+      .mt0 {
+        margin-top: 0; }
+
+      .mb0 {
+        margin-bottom: 0; }
+
+      .preheader {
+        color: transparent;
+        display: none;
+        height: 0;
+        max-height: 0;
+        max-width: 0;
+        opacity: 0;
+        overflow: hidden;
+        mso-hide: all;
+        visibility: hidden;
+        width: 0; }
+
+      .powered-by a {
+        text-decoration: none; }
+
+      hr {
+        border: 0;
+        border-bottom: 1px solid #f6f6f6;
+        Margin: 20px 0; }
+
+      /* -------------------------------------
+          RESPONSIVE AND MOBILE FRIENDLY STYLES
+      ------------------------------------- */
+      @media only screen and (max-width: 620px) {
+        table[class=body] h1 {
+          font-size: 28px !important;
+          margin-bottom: 10px !important; }
+        table[class=body] p,
+        table[class=body] ul,
+        table[class=body] ol,
+        table[class=body] td,
+        table[class=body] span,
+        table[class=body] a {
+          font-size: 16px !important; }
+        table[class=body] .wrapper,
+        table[class=body] .article {
+          padding: 10px !important; }
+        table[class=body] .content {
+          padding: 0 !important; }
+        table[class=body] .container {
+          padding: 0 !important;
+          width: 100% !important; }
+        table[class=body] .main {
+          border-left-width: 0 !important;
+          border-radius: 0 !important;
+          border-right-width: 0 !important; }
+        table[class=body] .btn table {
+          width: 100% !important; }
+        table[class=body] .btn a {
+          width: 100% !important; }
+        table[class=body] .img-responsive {
+          height: auto !important;
+          max-width: 100% !important;
+          width: auto !important; }}
+
+      /* -------------------------------------
+          PRESERVE THESE STYLES IN THE HEAD
+      ------------------------------------- */
+      @media all {
+        .ExternalClass {
+          width: 100%; }
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div {
+          line-height: 100%; }
+        .apple-link a {
+          color: inherit !important;
+          font-family: inherit !important;
+          font-size: inherit !important;
+          font-weight: inherit !important;
+          line-height: inherit !important;
+          text-decoration: none !important; }
+        .btn-primary table td:hover {
+          background-color: #34495e !important; }
+        .btn-primary a:hover {
+          background-color: #34495e !important;
+          border-color: #34495e !important; }
+          .btn-tertiary table td:hover {
+          background-color: #0A2A1B !important; }
+        .btn-tertiary a:hover {
+          background-color: #0A2A1B !important;
+          border-color: #0A2A1B !important; }}
+
+    </style>
+  </head>
+  <body class="">
+         <table border="0" cellpadding="0" cellspacing="0" class="body">
+      <tr>
+        <td>&nbsp;</td>
+        <td class="container">
+          <div class="content">
+
+      <span class="preheader">Sunnyvale North Life Group Weekly</span>
+      <div class="note-wrapper">
+            <img width="250" height="64" alt="Sunnyvale North Life Group Logo" src="http://ronaldhkim.com/wp-content/uploads/2018/08/GCCSVLG.png">
+
+            <section class="intro">
+                <p>Hi friends,</p> <!-- UPDATE WEEKLY -->
+                <p>We'll be splitting up by gender this week. Looking forward to seeing (roughly half of) you on Wednesday!</p>
+                <p>Ethan</p>
+            </section>
+            <section>
+                <h2>Wednesday, May 22</h2> <!-- UPDATE WEEKLY -->
+                <h3>👩 Women/Girls/Ladies/etc.</h3>
+                <h4>🏠 Meeting Time and Location</h4>
+                <p class="location-title">6:30 p.m. at Christie and Natalie&#39;s Place</p>
+
+                <p><a href="https://www.google.com/maps/place/222+Peppermint+Tree+Terrace+UNIT+4,+Sunnyvale,+CA+94086" target="_blank">
+                222 Peppermint Tree Terrace<br>
+                Unit 4<br>
+                Sunnyvale, CA 94086</a></p>
+
+                <p>Parking is limited, so you may need to channel your inner lumberjack and park at the nearby <a href="https://goo.gl/maps/x8eJcPjnh3ycgyYi8">Pine Cone Lumber</a>.</p>
+
+                <h4>🍴 Dinner Prep</h4>
+
+                <p>In the words of the inimitable Christie Chong (and two-thirds of the way to being a haiku!):<br>
+                <i>bring your own dinner <br>
+                  and we'll have snacks or something <br>
+                  i think we're planning to do yoga or like chill exercise so wear appropriate clothes!</i></p>
+
+                <h3>👨 Men/Guys/Dudes/etc.</h3>
+                <h4>🏠 Meeting Time and Location</h4>
+
+                <p class="location-title">6:30 p.m. at the Bolgers&#39; Home</p>
+                <p><a href="https://www.google.com/maps/place/1154+W+Olive+Ave,+Sunnyvale,+CA+94086/@37.3752914,-122.0528793,16z/data=!4m5!3m4!1s0x808fb6ef19417119:0x24af9d2f3b31804a!8m2!3d37.3744346!4d-122.0536035" target="_blank">
+                1154 West Olive Ave<br>
+                Apt 224<br>
+                Sunnyvale, CA 94086</a></p>
+                <p>Park on West Olive Ave, or in any uncovered spot in the parking lot near Carneros Ave. On the west side of the apartment complex (nearest Carneros Ave), take <a href="https://www.google.com/maps/place/1154+W+Olive+Ave,+Sunnyvale,+CA+94086/@37.3747798,-122.0542196,3a,75y,178.99h,99.13t/data=!3m6!1e1!3m4!1sOMltxe17NlQQjTIbP61QXA!2e0!7i16384!8i8192!4m5!3m4!1s0x808fb6ef19417119:0x24af9d2f3b31804a!8m2!3d37.3744346!4d-122.0536035" target="_blank">these stairs</a> to the second floor, and text Mark (417-527-8272) to let you in.</p>
+
+                <h4>🍴 Dinner Prep</h4>
+                <p>We're planning to meet at the Bolgers&#39; and then grab dinner somewhere nearby.</p>
+
+                <h3>📖 Discussion Prep</h3>
+                <ul>
+                    <li><a href="https://www.gardencitysv.com/sermons?sapurl=Lys2OGQ2L2xiL21zLysyeGtndGhzP2JyYW5kaW5nPXRydWUmZW1iZWQ9dHJ1ZQ==" target="_blank">Listen to the most recent sermon</a>.</li>
+                    <li> <a href="https://www.gardencitysv.com/awe-power-plan/" target="_blank">Follow along daily</a> in the Awe &amp; Power Plan <a href="https://static1.squarespace.com/static/596812beb3db2be17f270957/t/5cbc6e6d4e17b6542c3a40b8/1555852944110/Awe+%26+Power+Plan+2.0.pdf" target="_blank">with the PDF</a> or <a href="https://subsplash.com/gardencitysv/app" target="_blank">in the Garden City app</a>.</li>
+                    <li>No memorization shenanigans this week, but talk to Ethan (or anyone, really) if you'd like to get in on future adventures!</li>
+                </ul>
+
+                <h3>🙏 Prayer Requests</h3>
+                <ul>
+                <li>Let&#39;s continue to pray for one another; here's our list of <a href="https://docs.google.com/spreadsheets/d/1TV_AsHOTBd2AmOHzrwKlnYpyy2sWiIbjilyJ8qxMDz4/edit#gid=1531416259" target="_blank">ongoing prayer requests</a>.</li>
+                </ul>
+            </section>
+            <section>
+                <h2>📣 Church Announcements and Upcoming Events</h2> <!-- UDPATE WEEKLY -->
+                <h3>🖍️ Donate Supplies for the Honduras Service Trip</h3>
+                <p>For the past several years, our church has been supporting <a href="https://www.footstepsmissions.org/ministries?p=orphanage">a care facility for underserved youth in Northern Honduras</a>. We are sending a small team for a short-term service trip to Honduras this June.</p>
+                <p>As part of their ministry, the team will be bringing hygiene and academic supplies, and they are accepting donations for <a href="https://docs.google.com/document/d/1R8GLNz9abMmEWBzrzzrJXLPm1iqSBRZNjMEMrA6L0vA/edit?usp=sharing">these supplies</a>. Please bring these items to church on Sunday, June 2, 2019; the team will be in the lobby collecting donations.</p>
+                <h3>🤝 Meet and Greet</h3>
+                <h4>Sun, Jun 2 2019 &mdash; 5:30 p.m. &ndash; 6:30 p.m.</h4>
+                <p span class="italic">Held <a href="https://maps.google.com/?q=1670%20Moorpark%20Avenue%20San%20Jose,%20CA,%2095128%20United%20States" target="_blank">at the church</a>.</p>
+                <p>This monthly event is a great place to get connected with people at Garden City, and, as usual, a full meal with food and beverages will be served.</p>
+                <h3>👪 Membership class</h3>
+                <h4>Sun, Jun 2, 2019 &mdash; 6:00 p.m. &ndash; 7:30 p.m.</h4>
+                <p span class="italic">Held <a href="https://maps.google.com/?q=1670%20Moorpark%20Avenue%20San%20Jose,%20CA,%2095128%20United%20States" target="_blank">at the church</a> in the Seminar Room (upstairs in the youth wing adjacent to the youth room).</p>
+                <p>This step will replace the requirement for members to listen to the sermon series and will also have 15-20 minute Q&A session. This is intended to supplement the interview process so that a prospective member can hear from elders and staff about what the DNA of Garden City is about. Contact your LG leader (i.e. Joey) or <a href="mailto:fred@gardencitysv.com">Fred</a> if you plan on attending.</p>
+                <h3> 🙏 All-Church Prayer</h3>
+                <h4>Wed, Jun 5, 2019 &mdash; 6:30 p.m. &ndash; 7:30 p.m.</h4>
+                <p span class="italic">Held <a href="https://maps.google.com/?q=1670%20Moorpark%20Avenue%20San%20Jose,%20CA,%2095128%20United%20States" target="_blank">at the church</a> in the Auditorium.</p>
+                <p>Next week, in lieu of our usual Life Group gathering, we will be having our quarterly church-wide prayer meeting. Prayer is one of the ways we depend on God to grow disciples deep & wide for God’s glory, so let's meet together as a church family to seek after the Lord.</p>
+                <h3>⛰️ All-Church Retreat</h3>
+                <h4>Oct 25 &ndash; 27, 2019</h4>
+                <p>We&#39;re headed back to Mount Hermon, and it&#39;s going to be a great time — be sure to save the date on your calendar!
+            </section>
+            <section>
+                <h2>Resources</h2>
+                <ul>
+                  <!-- TODO: why did these links make the email non-mobile-friendly? -->
+                  <li>Audio podcasts of previous sermons: <a href="https://itunes.apple.com/us/podcast/garden-city-church/id463961789?mt=2" target="_blank">iTunes</a>, <a href="https://castbox.fm/channel/Garden-City-Podcast-id1628062?country=us">Castbox</a></li>
+                <li><a href="https://subsplash.com/gardencitysv/app" target="_blank">Garden City app</a></li>
+                </ul>
+
+            </section>
+      </div>
+      </div>
+      </td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+  </body>
+</html>
