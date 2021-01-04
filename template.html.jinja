@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Garden City Sunnyvale Life Group Weekly</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="">
+    <table border="0" cellpadding="0" cellspacing="0" class="body">
+      <tr>
+        <td>&nbsp;</td>
+        <td class="container">
+          <div class="content">
+            <span class="preheader">Sunnyvale Life Group Weekly</span>
+            <div class="note-wrapper">
+              <img width="250" height="64" alt="Sunnyvale Life Group Logo" src="https://raw.githubusercontent.com/ethantkoenig/lg_emails/master/images/logo.png">
+              <section class="intro">
+                {% block greeting %}
+                {% endblock %}
+              </section>
+              <section>
+                <h2>&#x2B05;&#xFE0F; &nbsp; 6&#xFE0F;&#x20E3; &#x1F463; &nbsp; &#x27A1;&#xFE0F; {%  block date %}{% endblock %}</h2>
+                {% block time_and_location %}
+                {% endblock %}
+                <h2>&#x1F64F; Prayer Requests</h2>
+                <p>Let&#39;s continue to pray for one another; here's our list of <a href="https://docs.google.com/spreadsheets/d/1TV_AsHOTBd2AmOHzrwKlnYpyy2sWiIbjilyJ8qxMDz4/edit#gid=219782849" target="_blank">ongoing prayer requests</a>.</p>
+              </section>
+            </div>
+          </div>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+  </body>
+</html>
